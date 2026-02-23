@@ -2,7 +2,8 @@
 {
     public interface IReportService
     {
-        Task<byte[]> GenerateEmployeeDirectoryPdfAsync();      
+
+        Task<byte[]> GenerateEmployeeDirectoryPdfAsync();   
         Task<byte[]> GenerateEmployeeDirectoryExcelAsync();
         Task<byte[]> GenerateDepartmentReportPdfAsync();
         Task<byte[]> GenerateDepartmentReportExcelAsync();
